@@ -1,1 +1,1 @@
-include ':app', ':overlayimageview'
+include ':OverlayImageViewSample', ':overlayimageview'
