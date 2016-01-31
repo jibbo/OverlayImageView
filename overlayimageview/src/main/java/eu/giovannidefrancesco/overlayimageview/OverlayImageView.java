@@ -51,20 +51,7 @@ public class OverlayImageView extends ImageView {
         requestLayout();
     }
 
-    @Override
-    protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
-        if (getDrawable() != null) {
-            if (mImage == null) {
-                mImage = drawableToBitmap(getDrawable());
-            }
-            canvas.drawBitmap(mImage, 0, 0, null);
-            canvas.drawColor(mTintColor);
-        }
-    }
-
-
-    public Bitmap drawableToBitmap(Drawable drawable) {
+    public static Bitmap drawableToBitmap(Drawable drawable) {
         if (drawable == null) {
             return null;
         } else if (drawable instanceof BitmapDrawable) {
@@ -81,6 +68,18 @@ public class OverlayImageView extends ImageView {
         drawable.draw(canvas);
 
         return bitmap;
+    }
+    
+    @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        if (getDrawable() != null) {
+            if (mImage == null) {
+                mImage = drawableToBitmap(getDrawable());
+            }
+            canvas.drawBitmap(mImage, 0, 0, null);
+            canvas.drawColor(mTintColor);
+        }
     }
 
     private void loadAttributes(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
