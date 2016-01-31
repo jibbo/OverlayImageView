@@ -5,10 +5,10 @@ This library provides an Imageview which can paint a layer on top of the image. 
 <img src="http://jibbo.altervista.org/gh/overlayimageview.gif" alt="sample preview" title="sample preview" width="250"/>
 
 ##Usage:
-First thing you'll need to import the project by adding this line to your *build.gradle*
-
-```
- not yet in JCenter (please wait a few hours)
+First thing you'll need import the project by adding this line to your **build.gradle**
+```groovy
+ compile 'eu.giovannidefrancesco:overlayimageview:1.0'
+ //not yet in JCenter (please wait a few hours)
 ``` 
 Second, you can just drop this Tag in your xml:
 

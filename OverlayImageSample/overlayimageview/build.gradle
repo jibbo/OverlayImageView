@@ -2,9 +2,9 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'overlayimageview'
+    bintrayName = 'customviews'
 
-    publishedGroupId = 'eu.giovannidefrancesco.overlayimageview'
+    publishedGroupId = 'eu.giovannidefrancesco'
     libraryName = 'OverlayImageView'
     artifact = 'overlayimageview'
 
