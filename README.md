@@ -33,8 +33,8 @@ Or set it programmatically:
 int color = Color.argb(80, 200, 0,0);
 //mOverlayImageView has been already set with findViewById...
 mOverlayImageView.setTintColor(color);
+```
 
-
-###Note:
+#####Note:
 This is my first Android library, please be patient and I would gladly accept
 any criticism. Also, any help is appreciated!
