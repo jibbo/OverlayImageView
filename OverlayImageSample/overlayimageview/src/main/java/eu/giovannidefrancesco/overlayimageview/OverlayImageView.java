@@ -13,9 +13,11 @@ import android.widget.ImageView;
 
 /**
  * Created by Giovanni De Francesco on 31/01/16.
+ * This class could be used for text protection or to apply a tint to an image.
  */
 public class OverlayImageView extends ImageView {
 
+    //transparent black
     public static final int DEFAULT_TINT_COLOR = Color.argb(128, 0, 0, 0);
 
     private int mTintColor;
@@ -41,10 +43,17 @@ public class OverlayImageView extends ImageView {
         loadAttributes(context, attrs, defStyleAttr, defStyleRes);
     }
 
+    /**
+     * @return the current color of the overlay as int
+     */
     public int getTintColor() {
         return mTintColor;
     }
 
+    /**
+     * Set the color of the overlay
+     * @param tintColor the color
+     */
     public void setTintColor(int tintColor) {
         mTintColor = tintColor;
         invalidate();
@@ -64,7 +73,7 @@ public class OverlayImageView extends ImageView {
     }
 
 
-    public Bitmap drawableToBitmap(Drawable drawable) {
+    private Bitmap drawableToBitmap(Drawable drawable) {
         if (drawable == null) {
             return null;
         } else if (drawable instanceof BitmapDrawable) {
@@ -74,6 +83,7 @@ public class OverlayImageView extends ImageView {
         Bitmap bitmap = Bitmap.createBitmap(drawable.getIntrinsicWidth(),
                 drawable.getIntrinsicHeight(), Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bitmap);
+
         drawable.setBounds(
                 0, 0,
                 getWidth(),
