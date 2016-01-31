@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OverlayImageSample</string>
+    <string name="action_info">Info</string>
+    <string name="info"><![CDATA[This app showcases the OverlayImageView library, which is available <a href=\'https://github.com/jibbo/OverlayImageView\'>here</a>. The example picture shown here has been made by <a href=\'https://www.flickr.com/photos/romainguy/5911366388\'>Romain Guy.</a>]]></string>
+</resources>
