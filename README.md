@@ -54,3 +54,6 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 #####Note:
 This is my first Android library, please be patient and I would gladly accept
 any criticism. Also, any help is appreciated!
+
+#####Copyrights:
+The picture of the mountain used in the sample app and above has been made by Romain Guy, it has not been modified and it is available <a href='https://www.flickr.com/photos/romainguy/5911366388'>here</a> with a copy of its license. 
