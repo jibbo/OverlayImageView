@@ -38,7 +38,7 @@
             android:layout_height="wrap_content">
 
 
-            <eu.giovannidefrancesco.overlayimageview.OverlayImageView
+            <eu.giovannidefrancesco.views.OverlayImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <eu.giovannidefrancesco.overlayimageview.OverlayImageView
+            <eu.giovannidefrancesco.views.OverlayImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"

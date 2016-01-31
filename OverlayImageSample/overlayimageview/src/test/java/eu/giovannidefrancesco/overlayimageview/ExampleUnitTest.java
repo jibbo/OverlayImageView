@@ -1,4 +1,4 @@
-package eu.giovannidefrancesco.overlayimageview;
+package eu.giovannidefrancesco.views;
 
 import org.junit.Test;
 
