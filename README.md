@@ -23,16 +23,18 @@ Now you can replace **my_beatiful_picture with** your own image and you are read
 By default the app put a transparent black overlay on the image. However, you can always set a different color by adding the following tags to your xml:
 
 ```xml
+<eu.giovannidefrancesco...
 xmlns:app="http://schemas.android.com/apk/res-auto"
-app:tintColor="@color/my_beatiful_color"
+app:tintColor="@color/my_beatiful_color"/>
 ```
 Or set it programmatically:
 ```java
 //red tint
 int color = Color.argb(80, 200, 0,0);
-\\mOverlayImageView has been already set with findViewById...
+//mOverlayImageView has been already set with findViewById...
 mOverlayImageView.setTintColor(color);
 
 
 ###Note:
-This is my first Android library, please be patient and I would gladly accept any criticism. Also, any help is appreciated!
+This is my first Android library, please be patient and I would gladly accept
+any criticism. Also, any help is appreciated!
