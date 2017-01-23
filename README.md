@@ -8,11 +8,11 @@ This library provides an Imageview which can paint a layer on top of the image. 
 <img src="http://jibbo.altervista.org/gh/overlayimageview.gif" alt="sample preview" title="sample preview" width="250"/>
 
 ##Usage:
-First thing you'll need import the project by adding this line to your **build.gradle**
+Import the project by adding this line to your **build.gradle**
 ```groovy
  compile 'eu.giovannidefrancesco:overlayimageview:1.0'
 ``` 
-Second, you can just drop this Tag in your xml:
+And then you can drop this tag in your layout:
 
 ```xml
 <eu.giovannidefrancesco.overlayimageview.OverlayImageView
@@ -21,10 +21,10 @@ Second, you can just drop this Tag in your xml:
                 android:src="@drawable/my_beautiful_picture" />
 ```
 
-Now you can replace **my_beatiful_picture with** your own image and you are ready to go.
+Replace **my_beatiful_picture with** your own image and you are ready to go.
 
 ##Customization
-By default the app put a transparent black overlay on the image. However, you can always set a different color by adding the following tags to your xml:
+By default the app puts a black overlay (alpha=0.5) on the image. However, you can always change this by adding the following tags to your xml:
 
 ```xml
 <eu.giovannidefrancesco...
