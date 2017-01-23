@@ -1,5 +1,8 @@
 # OverlayImageView
 
+![Alt text](https://img.shields.io/badge/license-MIT-green.svg?style=flat)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-OverlayImageView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/3239)
+
 This library provides an Imageview which can paint a layer on top of the image. This feature could be used for text protection or to apply a tint to an image.
 
 <img src="http://jibbo.altervista.org/gh/overlayimageview.gif" alt="sample preview" title="sample preview" width="250"/>
