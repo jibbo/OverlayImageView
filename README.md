@@ -21,7 +21,7 @@ And then you can drop this tag in your layout:
                 android:src="@drawable/my_beautiful_picture" />
 ```
 
-Replace **my_beatiful_picture with** your own image and you are ready to go.
+Replace **my_beatiful_picture** with your own image and you are ready to go.
 
 ##Customization
 By default the app puts a black overlay (alpha=0.5) on the image. However, you can always change this by adding the following tags to your xml:
