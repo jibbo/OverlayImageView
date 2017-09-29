@@ -7,7 +7,7 @@ This library provides an Imageview which can paint a layer on top of the image. 
 
 <img src="http://jibbo.altervista.org/gh/overlayimageview.gif" alt="sample preview" title="sample preview" width="250"/>
 
-##Usage:
+## Usage:
 Import the project by adding this line to your **build.gradle**
 ```groovy
  compile 'eu.giovannidefrancesco:overlayimageview:1.0'
@@ -23,7 +23,7 @@ And then you can drop this tag in your layout:
 
 Replace **my_beatiful_picture** with your own image and you are ready to go.
 
-##Customization
+## Customization
 By default the app puts a black overlay (alpha=0.5) on the image. However, you can always change this by adding the following tags to your xml:
 
 ```xml
@@ -40,7 +40,7 @@ mOverlayImageView.setTintColor(color);
 ```
 Of course, any color can be used.
 
-###License
+### License
 This library has been released with MIT license, a copy is inside the repo.
 ```
 The MIT License (MIT)
@@ -53,9 +53,9 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-#####Note:
+##### Note:
 This is my first Android library, please be patient and I would gladly accept
 any criticism. Also, any help is appreciated!
 
-#####Copyrights:
+##### Copyrights:
 The picture of the mountain used in the sample app and above has been made by Romain Guy, it has not been modified and it is available <a href='https://www.flickr.com/photos/romainguy/5911366388'>here</a> with a copy of its license. 
